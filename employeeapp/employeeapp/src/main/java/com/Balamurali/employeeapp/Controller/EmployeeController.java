@@ -14,7 +14,7 @@ import com.Balamurali.employeeapp.Service.EmployeeService;
 public class EmployeeController {
 
 	@Autowired
-	EmployeeService employeeService;
+	private EmployeeService employeeService;
 	@GetMapping("/employees/{id}")
 	ResponseEntity <EmployeeResponse> getEmployeeDetails(@PathVariable("id")int id){
 		
