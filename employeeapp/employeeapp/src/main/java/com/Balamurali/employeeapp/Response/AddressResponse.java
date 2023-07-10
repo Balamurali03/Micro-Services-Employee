@@ -10,5 +10,6 @@ public class AddressResponse {
 	private String lane2;
 	private String state;
 	private String zip;
+	private int employeeid;
 
 }
